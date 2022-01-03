@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/salon-ui/node_modules
+/salon-ui/.pnp
+/salon-ui/.pnp.js
+
+# testing
+/salon-ui/coverage
+
+# production
+/salon-ui/build
+
+# misc
+/salon-ui/.DS_Store
+/salon-ui/.env.local
+/salon-ui/.env.development.local
+/salon-ui/.env.test.local
+/salon-ui/.env.production.local
+
+/salon-ui/npm-debug.log*
+/salon-ui/yarn-debug.log*
+/salon-ui/yarn-error.log*
+
+#API
+/salon-api/*#
+/salon-api/*.iml
+/salon-api/*.ipr
+/salon-api/*.iws
+/salon-api/*.jar
+/salon-api/*.sw?
+/salon-api/*~
+/salon-api/.#*
+/salon-api/.*.md.html
+/salon-api/.DS_Store
+/salon-api/.attach_pid*
+/salon-api/.classpath
+/salon-api/.factorypath
+/salon-api/.gradle
+/salon-api/.idea
+/salon-api/.metadata
+/salon-api/.project
+/salon-api/.recommenders
+/salon-api/.settings
+/salon-api/.springBeans
+/salon-api/.vscode
+/salon-api/code
+/salon-api/MANIFEST.MF
+/salon-api/_site/
+/salon-api/activemq-data
+/salon-api/bin
+/salon-api/build
+/salon-api/build.log
+/salon-api/dependency-reduced-pom.xml
+/salon-api/dump.rdb
+/salon-api/interpolated*.xml
+/salon-api/lib/
+/salon-api/manifest.yml
+/salon-api/out
+/salon-api/overridedb.*
+/salon-api/target
+/salon-api/.flattened-pom.xml
+/salon-api/secrets.yml
+/salon-api/.gradletasknamecache
+/salon-api/.sts4-cache
